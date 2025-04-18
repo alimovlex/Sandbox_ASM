@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.26)
+project(syscall C)
+set(CMAKE_C_STANDARD 17)
+SET(CMAKE_C_FLAGS "-nostdlib")
+add_executable(syscall main.c)
