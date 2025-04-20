@@ -1,5 +1,5 @@
 # by default will build all the executables
-TARGET = syscall
+TARGET = sandbox
 all: $(TARGET)
 
 # using linker to create executable from the object file
